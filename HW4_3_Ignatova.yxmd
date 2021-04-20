@@ -1,0 +1,957 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sales Data 2019 /2020</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`capstone_table_part2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ITEM_CODE includes PROD and ESP" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F6" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F7" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F9" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F10" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F13" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F14" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F15" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F18" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F19" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F20" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F21" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F22" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F23" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F24" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F25" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F26" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F27" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F28" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F29" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F30" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F31" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F32" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F33" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F34" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F35" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F36" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F37" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F38" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F39" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F40" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F41" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F42" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F43" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F44" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F45" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F46" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F47" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F48" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F49" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F50" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F51" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F52" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F53" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F54" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F55" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F56" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+            <Field name="F57" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_table_part2$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ITEM_CODE includes PROD and ESP" selected="False" />
+            <SelectField field="F2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove first two columns (index and notes)</AnnotationText>
+          <DefaultAnnotationText>Remove first two columns (index and notes)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="330" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","F23","F24","F25","F26","F27","F28","F29","F30","F31","F32","F33","F34","F35","F36","F37","F38","F39","F40","F41","F42","F43","F44","F45","F46","F47","F48","F49","F50","F51","F52","F53","F54","F55","F56","F57"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Remove NULL rows
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Remove NULL rows]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="486" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F14" />
+            <Field name="F15" />
+            <Field name="F16" />
+            <Field name="F17" />
+            <Field name="F18" />
+            <Field name="F19" />
+            <Field name="F20" />
+            <Field name="F21" />
+            <Field name="F22" />
+            <Field name="F23" />
+            <Field name="F24" />
+            <Field name="F25" />
+            <Field name="F26" />
+            <Field name="F27" />
+            <Field name="F28" />
+            <Field name="F29" />
+            <Field name="F30" />
+            <Field name="F31" />
+            <Field name="F32" />
+            <Field name="F33" />
+            <Field name="F34" />
+            <Field name="F35" />
+            <Field name="F36" />
+            <Field name="F37" />
+            <Field name="F38" />
+            <Field name="F39" />
+            <Field name="F40" />
+            <Field name="F41" />
+            <Field name="F42" />
+            <Field name="F43" />
+            <Field name="F44" />
+            <Field name="F45" />
+            <Field name="F46" />
+            <Field name="F47" />
+            <Field name="F48" />
+            <Field name="F49" />
+            <Field name="F50" />
+            <Field name="F51" />
+            <Field name="F52" />
+            <Field name="F53" />
+            <Field name="F54" />
+            <Field name="F55" />
+            <Field name="F56" />
+            <Field name="F57" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Make the first row a header</AnnotationText>
+          <DefaultAnnotationText>Make the first row a header</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ITEM_CODE" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="EMP_ID" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Year" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W0" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W1" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W2" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W3" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W4" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W5" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W6" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W7" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W8" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W9" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W10" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W11" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W12" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W13" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W14" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W15" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W16" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W17" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W18" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W19" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W20" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W21" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W22" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W23" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W24" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W25" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W26" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W27" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W28" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W29" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W30" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W31" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W32" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W33" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W34" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W35" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W36" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W37" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W38" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W39" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W40" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W41" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W42" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W43" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W44" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W45" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W46" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W47" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W48" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W49" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W50" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="W51" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="618" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ITEM_CODE" selected="True" />
+            <Field field="EMP_ID" selected="True" />
+            <Field field="Year" selected="True" />
+            <Field field="W0" selected="True" />
+            <Field field="W1" selected="True" />
+            <Field field="W2" selected="True" />
+            <Field field="W3" selected="True" />
+            <Field field="W4" selected="True" />
+            <Field field="W5" selected="True" />
+            <Field field="W6" selected="True" />
+            <Field field="W7" selected="True" />
+            <Field field="W8" selected="True" />
+            <Field field="W9" selected="True" />
+            <Field field="W10" selected="True" />
+            <Field field="W11" selected="True" />
+            <Field field="W12" selected="True" />
+            <Field field="W13" selected="True" />
+            <Field field="W14" selected="True" />
+            <Field field="W15" selected="True" />
+            <Field field="W16" selected="True" />
+            <Field field="W17" selected="True" />
+            <Field field="W18" selected="True" />
+            <Field field="W19" selected="True" />
+            <Field field="W20" selected="True" />
+            <Field field="W21" selected="True" />
+            <Field field="W22" selected="True" />
+            <Field field="W23" selected="True" />
+            <Field field="W24" selected="True" />
+            <Field field="W25" selected="True" />
+            <Field field="W26" selected="True" />
+            <Field field="W27" selected="True" />
+            <Field field="W28" selected="True" />
+            <Field field="W29" selected="True" />
+            <Field field="W30" selected="True" />
+            <Field field="W31" selected="True" />
+            <Field field="W32" selected="True" />
+            <Field field="W33" selected="True" />
+            <Field field="W34" selected="True" />
+            <Field field="W35" selected="True" />
+            <Field field="W36" selected="True" />
+            <Field field="W37" selected="True" />
+            <Field field="W38" selected="True" />
+            <Field field="W39" selected="True" />
+            <Field field="W40" selected="True" />
+            <Field field="W41" selected="True" />
+            <Field field="W42" selected="True" />
+            <Field field="W43" selected="True" />
+            <Field field="W44" selected="True" />
+            <Field field="W45" selected="True" />
+            <Field field="W46" selected="True" />
+            <Field field="W47" selected="True" />
+            <Field field="W48" selected="True" />
+            <Field field="W49" selected="True" />
+            <Field field="W50" selected="True" />
+            <Field field="W51" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Convert the fields into the correct data types</AnnotationText>
+          <DefaultAnnotationText>Convert the fields into the correct data types</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ITEM_CODE" size="8" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="EMP_ID" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Year" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="W0" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W1" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W2" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W3" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W4" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W5" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W6" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W7" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W8" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W9" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W10" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W11" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W12" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W13" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W14" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W15" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W16" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W17" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W18" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W19" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W20" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W21" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W22" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W23" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W24" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W25" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W26" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W27" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W28" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W29" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W30" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W31" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W32" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W33" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W34" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W35" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W36" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W37" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W38" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W39" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W40" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W41" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W42" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W43" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W44" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W45" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W46" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W47" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W48" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W49" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W50" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="W51" source="Formula: [_CurrentField_]" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="762" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="ITEM_CODE" />
+            <Field field="EMP_ID" />
+            <Field field="Year" />
+          </KeyFields>
+          <DataFields>
+            <Field field="ITEM_CODE" selected="False" />
+            <Field field="EMP_ID" selected="False" />
+            <Field field="Year" selected="False" />
+            <Field field="W0" selected="True" />
+            <Field field="W1" selected="True" />
+            <Field field="W2" selected="True" />
+            <Field field="W3" selected="True" />
+            <Field field="W4" selected="True" />
+            <Field field="W5" selected="True" />
+            <Field field="W6" selected="True" />
+            <Field field="W7" selected="True" />
+            <Field field="W8" selected="True" />
+            <Field field="W9" selected="True" />
+            <Field field="W10" selected="True" />
+            <Field field="W11" selected="True" />
+            <Field field="W12" selected="True" />
+            <Field field="W13" selected="True" />
+            <Field field="W14" selected="True" />
+            <Field field="W15" selected="True" />
+            <Field field="W16" selected="True" />
+            <Field field="W17" selected="True" />
+            <Field field="W18" selected="True" />
+            <Field field="W19" selected="True" />
+            <Field field="W20" selected="True" />
+            <Field field="W21" selected="True" />
+            <Field field="W22" selected="True" />
+            <Field field="W23" selected="True" />
+            <Field field="W24" selected="True" />
+            <Field field="W25" selected="True" />
+            <Field field="W26" selected="True" />
+            <Field field="W27" selected="True" />
+            <Field field="W28" selected="True" />
+            <Field field="W29" selected="True" />
+            <Field field="W30" selected="True" />
+            <Field field="W31" selected="True" />
+            <Field field="W32" selected="True" />
+            <Field field="W33" selected="True" />
+            <Field field="W34" selected="True" />
+            <Field field="W35" selected="True" />
+            <Field field="W36" selected="True" />
+            <Field field="W37" selected="True" />
+            <Field field="W38" selected="True" />
+            <Field field="W39" selected="True" />
+            <Field field="W40" selected="True" />
+            <Field field="W41" selected="True" />
+            <Field field="W42" selected="True" />
+            <Field field="W43" selected="True" />
+            <Field field="W44" selected="True" />
+            <Field field="W45" selected="True" />
+            <Field field="W46" selected="True" />
+            <Field field="W47" selected="True" />
+            <Field field="W48" selected="True" />
+            <Field field="W49" selected="True" />
+            <Field field="W50" selected="True" />
+            <Field field="W51" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[De-Pivot or Transpose the week columns ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[De-Pivot or Transpose the week columns ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EMP_ID" selected="False" rename="emp_id" />
+            <SelectField field="ITEM_CODE" selected="True" rename="item_code" />
+            <SelectField field="Year" selected="True" rename="sales_year" />
+            <SelectField field="Name" selected="True" rename="sales_week" />
+            <SelectField field="Value" selected="True" rename="quantity" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rearrange and rename columns. Drop emp_id column.</AnnotationText>
+          <DefaultAnnotationText>Rearrange and rename columns to match db tables</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1014" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>item_code</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-04-20 05:05:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>ESP</Operand>
+              <StartDate>2021-04-20 05:05:00</StartDate>
+              <EndDate>2021-04-20 05:05:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter out the ESP codes</AnnotationText>
+          <DefaultAnnotationText>Contains([item_code],"ESP")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Warranty and Price</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`capstone_tables_part1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F6" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="Double" />
+            <Field name="F7" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="Sunday" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F10" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F13" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="Double" />
+            <Field name="F14" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="Double" />
+            <Field name="F15" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F18" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F19" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F20" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F21" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="Prices" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F23" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F24" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F25" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F26" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F27" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F28" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="F29" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F20" selected="True" />
+            <SelectField field="F21" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select the warranty and price columns</AnnotationText>
+          <DefaultAnnotationText>Select the warranty and price columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="378" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F20" />
+            <Field name="F21" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Make the first row a header</AnnotationText>
+          <DefaultAnnotationText>Make the first row a header</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Extended Service Plan" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+            <Field name="Warranty Price" size="255" source="File: D:\Training\DA_Bootcamp\UNIT 2 Advanced Visualization\Alteryx\HW4\capstone_data_complete.xlsx|||`capstone_tables_part1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="522" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"Extended Service Plan","Warranty Price"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove NULL rows</AnnotationText>
+          <DefaultAnnotationText>Remove NULL rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="654" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Extended Service Plan" selected="True" rename="item_code" />
+            <SelectField field="Warranty Price" selected="True" rename="price" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename columns</AnnotationText>
+          <DefaultAnnotationText>Rename columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1218" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_item_code" selected="True" rename="ESPCode" input="Left_" />
+                <SelectField field="Left_quantity" selected="True" rename="ESP Qty" input="Left_" />
+                <SelectField field="Right_item_code" selected="True" rename="Right_item_code" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Inner join sales and warranty price tables on item_code column</AnnotationText>
+          <DefaultAnnotationText>Inner join sales and warranty price tables on item_code column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1326" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="ESP Qty" />
+            <Field name="price" />
+            <Field name="sales_year" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>Total</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>[ESP Qty]*[price]</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create a new column Totals = Qty * Price</AnnotationText>
+          <DefaultAnnotationText>[ESP Qty]*[price]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1446" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sales_year" selected="False" />
+            <SelectField field="sales_week" selected="False" />
+            <SelectField field="Right_item_code" selected="False" />
+            <SelectField field="price" selected="True" rename="ESP Price" />
+            <SelectField field="TotalESP Qty" selected="False" />
+            <SelectField field="Totalprice" selected="True" rename="ESP_Total$" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop unnecessary columns and rename columns</AnnotationText>
+          <DefaultAnnotationText>Drop unnecessary columns and rename columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1566" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">esp_totals.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Export to esp_totals.csv</AnnotationText>
+          <DefaultAnnotationText>esp_totals.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="18" width="480" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Take datasets from Workflow HW4_1 and transform into a new set for ESP information</Text>
+          <Font name="Arial" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="4" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>HW4_3_Ignatova</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
